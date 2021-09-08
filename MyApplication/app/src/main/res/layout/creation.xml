@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/creation"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Первый лист персонажа"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/maininfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Основная информация" />
+
+        <Button
+            android:id="@+id/charac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Характеристики" />
+
+        <Button
+            android:id="@+id/dice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Спасброски" />
+
+        <Button
+            android:id="@+id/skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Навыки" />
+
+        <Button
+            android:id="@+id/otherandlang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Другие умения и языки" />
+
+        <Button
+            android:id="@+id/equip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Снаряжение" />
+
+        <Button
+            android:id="@+id/attack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Атаки и заклинания" />
+
+        <Button
+            android:id="@+id/special"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Особенности и способности" />
+
+        <Button
+            android:id="@+id/personal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Личная информация персонажа" />
+
+
+        <Button
+            android:id="@+id/hpandect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Броня, здоровье, скорость и инициатива" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Второй лист персонажа"
+           android:textSize="20dp"
+           android:gravity="center"/>
+
+       <Button
+           android:id="@+id/face"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Внешность персонажа" />
+
+       <Button
+           android:id="@+id/story"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Предыстория персонажа" />
+
+       <Button
+           android:id="@+id/addd"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Дополнительные особенности и черты" />
+
+       <Button
+           android:id="@+id/treasure"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Сокровища" />
+
+       <Button
+           android:id="@+id/guild"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Альянсы и организации" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Третий лист персонажа"
+           android:textSize="20dp"
+           android:gravity="center"/>
+
+       <Button
+           android:id="@+id/charforspells"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Характеристики для заклинаний" />
+
+       <Button
+           android:id="@+id/charms"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Незначительная магия" />
+
+       <Button
+           android:id="@+id/lvlsofspells"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Заклинания" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Завершение"
+           android:textSize="20dp"
+           android:gravity="center"/>
+
+       <Button
+           android:id="@+id/save"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Сохранить" />
+
+    </LinearLayout>
+</ScrollView>
